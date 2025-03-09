@@ -27,4 +27,4 @@ Context sınıfımızın ismi PatikaSecondDbContext olsun.
 Veritabanı ismi PatikaCodeFirstDb2 olsun.  
 Veritabanında tablolar Users ve Posts olsun.  
 İstenilen kodu yazdıktan sonra MsSQL DB'imizde oluşan Db ve Table alttaki diyagramdaki gibi olmakta UserId primary key, PostId foren key olmaktadır.  
-![Db2](https://github.com/ugurarican/CodeFirstRelation/blob/master/db2.png)  
+![Db2](https://github.com/ugurarican/CodeFirstRelation/blob/master/db2-one-to-many.png)  
