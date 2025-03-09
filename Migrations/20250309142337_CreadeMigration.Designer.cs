@@ -4,6 +4,7 @@ using CodeFirstRelation.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CodeFirstRelation.Migrations
 {
     [DbContext(typeof(PatikaSecondDbContext))]
-    partial class PatikaSecondDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250309142337_CreadeMigration")]
+    partial class CreadeMigration
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

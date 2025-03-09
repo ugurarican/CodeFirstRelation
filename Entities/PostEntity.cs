@@ -8,6 +8,6 @@
         public int UserId { get; set; }
 
         // Relational Property
-        public List<UserEntity> User { get; set; }
+        public UserEntity User { get; set; }
     }
 }
